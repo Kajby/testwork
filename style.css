@@ -1,0 +1,418 @@
+@font-face{
+	font-family: 'Gotham Pro';
+	src: url('fonts/gotham pro/GothamPro.eot');
+	src: url('fonts/gotham pro/GothamPro.eot?iefix')format('eot'),
+	url('fonts/gotham pro/GothamPro.woff') format('woff'),
+	url('fonts/gotham pro/GothamPro.ttf') format('truetype'),
+	url('fonts/gotham pro/GothamPro.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Stolzl';
+	src: url('fonts/stolzl/Stolzl-Light.eot');
+	src: url('fonts/stolzl/Stolzl-Light.eot?iefix')format('eot'),
+	url('fonts/stolzl/Stolzl-Light.woff') format('woff'),
+	url('fonts/stolzl/Stolzl-Light.ttf') format('truetype'),
+	url('fonts/stolzl/Stolzl-Light.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'Stolzl-Thin';
+	src: url('fonts/stolzl/Stolzl-Thin.eot');
+	src: url('fonts/stolzl/Stolzl-Thin.eot?iefix')format('eot'),
+	url('fonts/stolzl/Stolzl-Thin.woff') format('woff'),
+	url('fonts/stolzl/Stolzl-Thin.ttf') format('truetype'),
+	url('fonts/stolzl/Stolzl-Thin.svg#webfont') format('svg');
+	font-weight: bold;
+	font-style: normal; 
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #4C1DD2;
+	overflow: hidden;
+	width: 1920px;
+	height: 983px;
+}
+.content{
+	width: 1200px;
+}
+.main-menu {
+	display: flex;
+	padding: 60px 0 0 265px;
+	z-index: 5;
+}
+.main-menu .links{
+	padding: 6px 0 0 10px;
+	z-index: 5;
+	line-height: 19px;
+
+}
+nav{
+	z-index: 5;
+}
+.main-menu a {
+	padding-left: 35px;
+	font-style: bold;
+	font-family: Stolzl;
+	color: #fff;
+	z-index: 5;
+	text-decoration: none;
+	font-weight: bold;
+}
+.main-menu .links ul{
+	display: flex;
+	margin: 0;
+}
+.main-menu .links li{
+	list-style-type: none;
+}
+.number-phone{
+	color: #fff;
+	padding: 0 43px 10px 280px;
+	font-family: Stolzl;
+}
+.number-phone p{
+	margin: 0;
+	padding-top: 6px;
+}
+
+.button-whatsapp{
+	z-index: 5;
+	width: 177px;
+	height: 48px;
+	color:#fff;
+	background: #4F15F3;
+	border-radius: 9px;
+	margin-top: -10px;
+}
+
+.button-whatsapp .wp_phone{
+	margin-bottom: 10px;
+	position: absolute;
+	margin-left: 29.89px;
+	margin-top: 13.71px;
+}
+
+.button-whatsapp .wp_circle {
+	margin-left: 24.79px;
+	margin-top: 11.71px;
+	position: absolute;
+}
+
+.button-whatsapp .wp_radius {
+	margin-bottom: 10px;
+	position: absolute;
+	margin-left: 23.20px;
+	margin-top: 11.11px;
+}
+
+.button-wp-text  {
+	font-size: 17px;
+	text-align: right;
+	margin-top: 12.71px;
+}
+
+.button-wp-text a {
+	font-family: Gotham Pro;
+	text-decoration: none;
+	margin-right: 25px;
+}
+.content{
+	display: flex;
+	margin-left: -110px;
+	padding: 0 0 0 470px;
+}
+.content .left-content{
+	padding: 230px 0 0 0; 
+}
+.left-content .headings .heading-one h1{
+	margin: 0;
+	font-family: Stolzl;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 150%;
+	color: #fff;
+}
+.content .left-content .headings .heading-one h1 > span{
+	font-family: Stolzl-Thin;
+	font-size: 38px;
+	font-weight: bold;
+}
+.content .left-content .headings .heading-two h2{
+	font-family: Stolzl-Thin;
+	font-style: normal;
+	font-style: 24px;
+	color: #fff;
+	line-height: 36px;
+}
+
+.content .right-content .main-elements .background-rectangle{
+	position: absolute;
+	padding: 136px 0 0 115px;
+	z-index: -1;
+}
+.content .right-content .main-elements .top-left-rectangle{
+	position: absolute;
+	padding: 98px 0 0 49px;
+}
+.content .right-content .main-elements .vertical-rectangle{
+	position: absolute;
+	padding: 354px 0 0 441px;
+	z-index: 2;
+}
+.content .right-content .main-elements .girl{
+	position: absolute;
+	padding: 54px 0 0 49px;
+	z-index: 1;
+	width: 527px;
+	height: 680px;
+}
+.content .right-content .main-elements .bottom-rectangle{
+	position: absolute;
+	padding: 533px 0 0 298px;
+	z-index: 2;
+}
+.content .left-content form{
+	z-index: 5;
+}
+.content .left-content #input-number{
+	margin-top: 34px;
+	height: 56px;
+	width: 264px;
+	border-radius: 12px;
+	border: none;
+	z-index: 5;
+	font-family: Stolzl;
+	font-size: 18px;
+	padding-left: 19px;
+}
+.content .left-content #input-submit{
+	margin-left: 	22px;
+	background-color: #F86161;
+	width: 335px;
+	height: 58px;
+	border-radius: 12px;
+	font-family: Stolzl;
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+.content .right-content .top-left-circle .ellipse {
+	position: absolute;
+	padding: 26px 0 0 54px;
+}
+.content .right-content .top-left-circle .people {
+	position: absolute;
+	padding: 43px 0 0 68px;
+}
+
+.content .right-content .top-left-circle .ellipse-text{
+	color:#fff;
+	position: absolute;
+	padding: 91px 0 0 38px;
+	font-family: Stolzl;
+	text-align: center;
+	font-size: 12px;
+}
+.content .right-content .top-left-circle .ellipse-text p{
+	margin: 0;
+	padding-bottom: 10px;
+	line-height: 150%;
+}
+.content .right-content .top-left-circle .ellipse-text span{
+	font-size: 22px;
+	font-weight: bold;
+}
+.content .right-content .vertical-rectangle .vertical-circle .ellipse{
+	position: absolute;
+	padding: 23px 0 0 20px;
+}
+.content .right-content .vertical-rectangle .vertical-picture {
+	position: absolute;
+	padding: 39px 0 0 36px;
+	z-index: 5;
+}
+.content .right-content .vertical-rectangle .vertical-text p{
+	margin: 0;
+	padding-bottom: 5px;
+	line-height: 15px;
+}
+.content .right-content .vertical-rectangle .vertical-text{
+	position: absolute;
+	color:#fff;
+	padding: 22px 0 0 86px;
+	font-family: Stolzl;
+	font-size: 12px;
+}
+.content .right-content .vertical-rectangle .vertical-text span{
+	font-size: 22px;
+	font-weight: bold;
+}
+.content .right-content .bottom-rectangle .ellipse-image {
+	position: absolute;
+	z-index: 6;
+	padding: 22px 0 0 23px;
+}
+.content .right-content .bottom-rectangle .ellipse .UP{
+	z-index: 7;
+	position: absolute;
+	padding: 40px 0 0 40px;
+}
+.content .right-content .bottom-rectangle .bottom-text {
+	position: absolute;
+	font-family: Stolzl;
+	font-size: 18px;
+	padding: 28px 0 0 93px;
+	font-weight: bold;
+
+}
+.content .right-content .bottom-rectangle .bottom-text p{
+	margin: 0;
+}
+.content .right-content .bottom-rectangle .bottom-grid {
+	position: absolute;
+	padding: 112px 0 0 55px;
+	width: 238px;
+	height: 164px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content .right-content .bottom-rectangle .bottom-grid .item-bottom {
+	border: 1px solid #E6EBF0;
+	height: 41px;
+	width: 32px;
+}
+
+.content .right-content .bottom-rectangle .bottom-line-up {
+	position: absolute;
+	padding: 122.9px 0 0 53px;
+}
+.content .right-content .bottom-rectangle .numeral {
+	position: absolute;
+	margin: 0;
+	font-size: 9px;
+	font-family: Gotham Pro;
+}
+.content .right-content .bottom-rectangle .numeral .num400 {
+	padding: 100px 0 0 24px;
+}
+.content .right-content .bottom-rectangle .numeral .num300{
+	padding: 15px 0 0 24px ;
+}
+.content .right-content .bottom-rectangle .numeral .num200{
+	padding: 15px 0 0 24px; 
+}
+.content .right-content .bottom-rectangle .numeral .num100{
+	padding: 15px 0 0 24px;
+}
+.content .right-content .yellow-triangle {
+	position: absolute;
+	z-index: 2;
+	padding: 513px 0 0 85px; ;
+}
+.content .right-content .dot-grid{
+	position: absolute;
+	padding:106px 0 0 501px;
+	z-index: -2;
+}
+.left-bubble{
+	padding: 172px 0 0 0;
+	position: absolute;
+	z-index: -2;
+}
+.center-bubble{
+	position: absolute;
+	padding: 223px 0 0 839px;
+	z-index: -4;
+}
+.top-right-bubble{
+	position: absolute;
+	padding: 0 0 0 1608px;
+}
+.elements .left-plus{
+	padding: 172px 0 0 162px;
+	position: absolute;
+}
+.elements .vertical-lines{
+	position: absolute;
+	padding-left: 40px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 459px 459px 459px 459px 459px  ;
+	z-index: -1;
+
+}
+.elements .vertical-lines .line-item {
+	border-left: 1px solid #5B2AED;
+	height: 1024px;
+}
+.elements .bottom-plus img{
+	position: absolute;
+	padding: 756px 0 0 241px;
+	width: 9px;
+}
+.elements .right-plus img{
+	position: absolute;
+	padding: 449px 0 0 1012px;
+	width: 8px;
+}
+.elements .small-ellipse img{
+	position: absolute;
+	padding: 274px 0 0 978px;
+	width: 19px;
+}
+
+@media screen and (max-width: 768px){
+	.content{
+		width: 768px;
+	}
+	.main-menu .number-phone {
+		
+		color: red;
+		padding: 0 43px 10px 100px;
+		font-family: Stolzl;
+	}
+}
+
+
+
+@media screen and (max-width: 991px){
+	.top-right-bubble{
+		display: none;
+	}
+	.left-bubble{
+		display: none;
+	}
+	.center-bubble{
+		position: absolute;
+		padding: 50px 0 0 150px;
+		z-index: -4;
+	}
+	.main-menu li a{
+		font-size: 30px;
+	}
+	.main-menu .number-phone {
+		
+		color: #fff;
+		padding: 0 43px 10px 100px;
+		font-family: Stolzl;
+	}
+	.main-menu .number-phone p{
+		font-size: 30px;
+		margin-top: -8px;
+	}
+	.content .left-content{
+	padding: 230px 0 0 0; 
+}
+	.content{
+		width: 991px;
+	}
+}
+
+
+
+
